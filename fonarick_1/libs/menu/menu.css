@@ -1,0 +1,10 @@
+.menu_firstrow, .menu_secondrow, .menu_thirdrow {
+	width: 40px;
+	height: 5px;
+	background-color: #dadcdb;
+	transition: all linear .5s;
+}
+
+.menu_secondrow, .menu_thirdrow {
+	margin-top: 8px;
+}

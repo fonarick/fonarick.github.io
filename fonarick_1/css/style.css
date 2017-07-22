@@ -1,0 +1,281 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	font-family: Georgia, sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: black;
+}
+
+header {
+	background: url(../img/clouds.png);
+	background-position: center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 395px;
+}
+
+nav {
+	padding-top: 165px;
+}
+
+.navigation>ul>li {
+	font-size: 18px;
+	float: left;
+	padding: 0 18px;
+}
+
+.navigation>ul>li>img {
+	display: block;
+	margin-top: -96px;
+}
+
+.simply-creative {
+	text-align: center;
+}
+
+.simply-creative h1 {
+	font-size: 47px;
+	letter-spacing: 25px;
+	border-bottom: 2px solid black;
+}
+
+.simply-creative h2 {
+	font-size: 20px;
+	letter-spacing: 20px;
+	padding-left: 10px;
+}
+
+.header_smalltext>p {
+	text-align: center;
+	font-size: 13px;
+	padding-top: 65px;
+	line-height: 23px;
+}
+
+article {
+	padding-top: 25px;
+}
+
+.article_lines {
+	width: 100%;
+	height: 7px;
+	background: url(../img/content_border.png) repeat-x;
+	margin-top: 12px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.article_block {
+	padding-top: 20px;
+}
+
+.article_block img {
+	width: 100%;
+}
+
+.article_block p {
+	padding-top: 25px;
+	line-height: 22px;
+}
+
+.article_decoratetext {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 11px;
+}
+
+.article_blockquote {
+	text-align: center;
+	letter-spacing: 3px;
+	position: relative;
+	padding-top: 90px;
+}
+
+.article_blockquote::before {
+	content: "{";
+	font-size: 80px;
+	opacity: .23;
+	position: absolute;
+	left: -30px;
+	top: 60px;
+}
+
+.article_blockquote::after {
+	content: "}";
+	font-size: 80px;
+	opacity: .23;
+	position: absolute;
+	right: -30px;
+	top: 60px;
+}
+
+.wrapper_1 {
+	padding-top: 60px;
+}
+
+.content h2 {
+	width: 95%;
+}
+
+.content p {
+	padding-top: 32px;
+	line-height: 25px;
+	width: 95%;
+}
+
+.sidebar p {
+	padding-top: 10px;
+	position: relative;
+}
+
+p.sidebar_firstp {
+	padding-top: 32px;
+}
+
+.sidebar p::before {
+	content: ">>";
+	position: absolute;
+	left: -22px;
+}
+
+.article_hr {
+	margin-top: 60px;
+	border-color: black;
+	opacity: .5;
+}
+
+.design_author {
+	font-size: 13px;
+	opacity: .7;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.wrapper_2 {
+	padding-top: 40px;
+}
+
+.wrapper_2 li {
+	width: 37px;
+	height: 37px;
+	float: right;
+	margin-right: 15px;
+}
+
+.wrapper_2 li:nth-child(1) {
+	background: url(../img/iconset.png) no-repeat 0 -411px;
+	margin-right: 0px;
+}
+
+.wrapper_2 li:nth-child(2) {
+	background: url(../img/iconset.png) no-repeat 0 -283px;
+}
+
+.wrapper_2 li:nth-child(3) {
+	background: url(../img/iconset.png) no-repeat 0 -166px;
+}
+
+.wrapper_2 li:nth-child(4) {
+	background: url(../img/iconset.png) no-repeat 0 -81px;
+}
+
+.wrapper_2 li:nth-child(5) {
+	background: url(../img/iconset.png) no-repeat 0 0;
+}
+
+.wrapper_2 li a {
+	display: block;
+	height: 37px;
+}
+
+@media screen and (min-width: 1200px) {
+	.menu {
+		display: none;
+	}
+	.hide_menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.menu {
+		display: block;
+		position: absolute;
+		top: 40px;
+		right: 40px;
+	}
+	.menu div {
+		background-color: gray;
+	}
+	.navigation > ul > li:nth-child(1) {
+		display: none;
+	}
+	.navigation > ul > li:nth-child(2) {
+		display: none;
+	}
+	.navigation > ul > li:nth-child(4) {
+		display: none;
+	}
+	.navigation > ul > li:nth-child(5) {
+		display: none;
+	}
+	.navigation > ul {
+		width: 100%;
+	}
+	.navigation > ul > li {
+		width: 100%;
+	}
+	.navigation > ul > li > img {
+		display: block;
+		margin: auto;
+	}
+	.simply-creative h1 {
+		letter-spacing: 16px;
+	}
+	.simply-creative h2 {
+		padding-left: 20px;
+	}
+	.hide_menu {
+		position: absolute;
+		top: 100px;
+		right: 38px;
+		transition: all ease-out .5s;
+		opacity: 0;
+	}
+	.hide_menu li {
+		padding-top: 15px;
+	}
+	.hide_menu li a {
+		font-size: 18px;
+		text-align: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.sidebar {
+		padding-top: 20px;
+	}
+	.simply-creative h1 {
+		width: 300px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.wrapper_2 li {
+		margin-right: 5px;
+	}
+}
