@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "PTSR";
+  src: url("../fonts/PTSerifRegular/PTSerifRegular.eot") format("opentype");
+  src: url("../fonts/PTSerifRegular/PTSerifRegular.woff") format("woff");
+  src: url("../fonts/PTSerifRegular/PTSerifRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "PTSBI";
+  src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot") format("opentype");
+  src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff") format("woff");
+  src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "PTSI";
+  src: url("../fonts/PTSerifItalic/PTSerifItalic.eot") format("opentype");
+  src: url("../fonts/PTSerifItalic/PTSerifItalic.woff") format("woff");
+  src: url("../fonts/PTSerifItalic/PTSerifItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "PTSB";
+  src: url("../fonts/PTSerifBold/PTSerifBold.eot") format("opentype");
+  src: url("../fonts/PTSerifBold/PTSerifBold.woff") format("woff");
+  src: url("../fonts/PTSerifBold/PTSerifBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "FA";
+  src: url("../fonts/FontAwesome/FontAwesome.eot") format("opentype");
+  src: url("../fonts/FontAwesome/FontAwesome.woff") format("woff");
+  src: url("../fonts/FontAwesome/FontAwesome.ttf") format("truetype"); }
