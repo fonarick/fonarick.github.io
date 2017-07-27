@@ -273,6 +273,9 @@ p.sidebar_firstp {
 		margin: auto;
 		font-size: 30px
 	}
+	.article_blockquote::after, .article_blockquote::before {
+		display: none
+	}
 }
 
 @media screen and (max-width: 560px) {
